@@ -1,4 +1,4 @@
-# requisitos
+# Requisitos
 
 Para realizar este tutorial, você precisa:
 
@@ -34,7 +34,9 @@ Necessário para a parte da nuvem.
 {% endstep %}
 
 {% step %}
-## Amor no coração
+## Amor no coração&#x20;
+
+<figure><img src=".gitbook/assets/love-heart-svgrepo-com.svg" alt="" width="188"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
