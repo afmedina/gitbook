@@ -2,7 +2,7 @@
 
 O **AnyLogic** é um ambiente de simulação que reúne, num único software, os três grandes métodos da simulação: **eventos discretos**, **dinâmica de sistemas** e **modelagem baseada em agentes**.&#x20;
 
-<figure><img src=".gitbook/assets/1200px-AnyLogic_7_vector_logo.svg.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/1200px-AnyLogic_7_vector_logo.svg.png" alt="" width="188"><figcaption></figcaption></figure>
 
 Este volume III foca o conteúdo de **Modelagem Baseada em Agentes** do AnyLogic. O volume I foca a **Simulação de Eventos Discretos ou** **Modelagem baseada em Processos**, disponível neste [link](https://tutorial.anylogicbrasil.com.br/), e o volume II foca a **Simulação de Dinâmica de Sistemas** do AnyLogic e está disponível [neste link](https://tutorial-ds.anylogicbrasil.com.br/).
 
