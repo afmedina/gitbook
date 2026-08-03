@@ -3,7 +3,7 @@
 * [Tutorial AnyLogic: simulação baseada em agentes](README.md)
 * [premissa](premissa.md)
 * [requisitos](requisitos.md)
-* [etapas](etapas.md)
+* [Etapas](etapas.md)
 * [problema](problema.md)
 * [agente motorista](agente-motorista.md)
 * [citacao](citacao.md)
