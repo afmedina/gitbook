@@ -1,4 +1,4 @@
-# problema
+# O problema: hub de recarga para EVs
 
 Uma operadora de mobilidade vai instalar um **hub de recarga** para atender uma frota de **25 veículos elétricos** que circulam por uma região urbana ao longo do dia. Cada carregador custa caro — tanto o equipamento quanto a obra e a conexão elétrica —, então a operadora não quer instalar mais do que o necessário. Por outro lado, se houver carregadores de menos, os motoristas vão formar fila, esperar, reclamar e, no limite, procurar a concorrência.
 
@@ -14,8 +14,8 @@ A pergunta é a clássica pergunta de dimensionamento de recurso, só que agora 
 
 Você poderia modelar isto como uma fila de eventos discretos (chegadas → fila → recurso → saída), e funcionaria. Mas repare no que torna este problema naturalmente "de agentes":
 
-* Cada motorista tem um **estado interno** (rodando, precisando carregar, indo ao posto, na fila, carregando) e **transita** entre esses estados por conta própria.
-* O motorista **não chega** ao sistema de fora: ele já está no sistema o tempo todo, rodando pela cidade, e só _decide_ ir ao hub quando a bateria baixa.
+* Cada motorista tem um **estado interno** (rodando, precisando carregar, indo ao posto, na fila, carregando) e **transita** entre esses estados por conta própria;
+* O motorista **não chega** ao sistema de fora: ele já está no sistema o tempo todo, rodando pela cidade, e só _decide_ ir ao hub quando a bateria baixa;
 * Há **espaço e movimento**: o tempo até chegar ao hub depende de onde o motorista está.
 
 Isso é exatamente o que a modelagem baseada em agentes descreve bem. Cada motorista será um **agente** com um **statechart**, e a fila no hub vai _emergir_ do comportamento dos 25 agentes disputando um número limitado de carregadores.
