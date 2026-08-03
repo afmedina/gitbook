@@ -1,7 +1,6 @@
 # Table of contents
 
-* [SUMMARY](README.md)
-* [README](readme.md)
+* [Tutorial AnyLogic: simulação baseada em agentes](README.md)
 * [premissa](premissa.md)
 * [requisitos](requisitos.md)
 * [etapas](etapas.md)
