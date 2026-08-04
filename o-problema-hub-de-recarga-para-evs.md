@@ -26,13 +26,13 @@ Antes de abrir o AnyLogic, fixe na cabeça o ciclo que vamos modelar:
 
 {% stepper %}
 {% step %}
-## Rodando
+## Circulando
 
 O veículo circula pela região, consumindo bateria.
 {% endstep %}
 
 {% step %}
-## Indo ao posto
+## Deslocando ao posto
 
 Quando a autonomia acaba, o motorista se desloca até o hub.
 {% endstep %}
@@ -50,7 +50,7 @@ Assim que um carregador vaga, ele ocupa e recarrega.
 {% endstep %}
 
 {% step %}
-## De volta a Rodando
+## De volta a circulando
 
 Recarregado, o ciclo recomeça.
 {% endstep %}
