@@ -16,12 +16,12 @@ Para não ficar no abstrato, vamos resolver um problema concreto e atualíssimo:
 
 Ao final deste tutorial você terá:
 
-* construído, do zero, um modelo baseado em agentes com **statechart**, **população de agentes** e **movimento em espaço 2D**;
-* coletado indicadores de **nível de serviço**, **fila** e **utilização**;
-* enviado o modelo para a **AnyLogic Cloud** e rodado um experimento de **variação de parâmetros** para dimensionar o hub;
-* analisado os resultados e tomado uma decisão de engenharia com base neles.
+* Construído, do zero, um modelo baseado em agentes com **statechart**, **população de agentes** e **movimento em espaço 2D**;
+* Coletado indicadores de **nível de serviço**, **fila** e **utilização**;
+* Enviado o modelo para a **AnyLogic Cloud** e rodado um experimento de **variação de parâmetros** para dimensionar o hub;
+* Analisado os resultados e tomado uma decisão de engenharia com base neles.
 
-Vamos nessa.
+_Hey Ho Let's Go!_
 
 ***
 

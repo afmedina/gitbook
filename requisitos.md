@@ -28,12 +28,6 @@ Necessário para a parte da nuvem.
 {% endstep %}
 
 {% step %}
-## Uma conta gratuita na AnyLogic Cloud
-
-[**AnyLogic Cloud**](https://cloud.anylogic.com/)
-{% endstep %}
-
-{% step %}
 ## Amor no coração&#x20;
 
 <figure><img src=".gitbook/assets/love-heart-svgrepo-com.svg" alt="" width="188"><figcaption></figcaption></figure>

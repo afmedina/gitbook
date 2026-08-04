@@ -1,12 +1,14 @@
 # Premissa
 
-Este tutorial parte da premissa de que você **já teve contato com simulação** — de preferência, já passou pelos volumes de Modelagem de Processos e de Dinâmica de Sistemas, ou tem experiência equivalente. Em nenhum momento vamos explicar o que é um modelo, o que é o tempo de simulação, o que é uma variável aleatória ou por que rodamos várias replicações. Assumimos que você já entende o básico.
+Este tutorial parte da premissa de que você **já teve contato com simulação** — de preferência, já passou pelos volumes de Modelagem baseada em Processos e de Dinâmica de Sistemas, ou tem experiência equivalente. Em nenhum momento vamos explicar o que é um modelo, o que é o tempo de simulação, o que é uma variável aleatória ou por que rodamos várias replicações. Assumimos que você já entende o básico.
 
 Se você quiser a recomendação de [um livro bacana de Simulação, siga o link.](https://leanpub.com/msed)
 
 O que **é** novo aqui é a forma de pensar. Se na modelagem de processos você pensava em _entidades fluindo por blocos_, e na dinâmica de sistemas você pensava em _estoques e taxas_, na modelagem baseada em agentes você vai pensar em **indivíduos com comportamento próprio**. A pergunta que você faz muda de “por onde a entidade passa?” para “o que este agente faz, e como ele reage ao que acontece à sua volta?”.
 
-Também assumimos que você tem o **AnyLogic PLE (Personal Learning Edition)** instalado, pacote específico para auto aprendizagem ou uso em sala de aula. Se ainda não o fez, você deve baixar a versão PLE por meio deste [link](https://www.anylogic.com/downloads/) (ao final da página do link, você encontra os requisitos mínimos de hardware e software para executar o AnyLogic).
+### AnyLogic Instalado?
+
+Também assumimos que você tem o **AnyLogic PLE (Personal Learning Edition)** instalado, pacote específico para auto aprendizagem ou uso em sala de aula. Se ainda não o fez, você deve baixar a versão **PLE** por meio deste [link](https://www.anylogic.com/downloads/) (ao final da página do link, você encontra os requisitos mínimos de hardware e software para executar o AnyLogic).
 
 A instalação para **Windows, Mac ou Linux** é feita sem percalços, seguindo as instruções que aparecem na tela.
 
