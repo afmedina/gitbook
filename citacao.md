@@ -1,6 +1,6 @@
 # citacao
 
-## Como citar
+## Como citar esta obra
 
 MEDINA, A. C. et al. **Tutorial AnyLogic: Simulação Baseada em Agentes**. 1ª edição. São Paulo: Genoa Soluções, 2026. Disponível em: [https://tutorial-ab.anylogicbrasil.com.br/](https://tutorial-ab.anylogicbrasil.com.br/).
 
