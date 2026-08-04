@@ -16,7 +16,7 @@ Da paleta **Agent**, arraste três **Parameter** para dentro do diagrama do `Dri
 Colocamos `triangular(min, moda, max)` **como valor padrão do parâmetro**. Assim, cada motorista sorteia o seu próprio tempo toda vez que o parâmetro é lido — e não teremos 25 veículos com exatamente a mesma autonomia. Distribuições triangulares são ótimas quando você tem “mínimo, mais provável e máximo” na cabeça, mas não tem dados finos.
 {% endhint %}
 
-## Variáveis do Motorista
+## Variáveis do agente Driver
 
 Vamos precisar de uma variável para cronometrar quanto tempo o motorista esperou na fila. Arraste uma **Variable** da paleta **Agent** para dentro do `Driver`:
 
