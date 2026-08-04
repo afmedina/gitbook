@@ -1,4 +1,4 @@
-# criando modelo
+# Criando o modelo
 
 Abra o AnyLogic e crie um novo modelo: **File > New > Model**. Dê o nome de `HubRecargaVE` e, muito importante, defina a **unidade de tempo do modelo** como **minutes** (minutos). Clique em **Finish**.
 
@@ -6,7 +6,7 @@ Abra o AnyLogic e crie um novo modelo: **File > New > Model**. Dê o nome de `Hu
 A unidade de tempo é uma decisão de projeto. Como as autonomias e os tempos de recarga do nosso problema estão na casa de dezenas a centenas de minutos, **minutos** é a escala mais confortável. Se você escolher a unidade errada agora, vai penar depois convertendo tudo.
 {% endhint %}
 
-## O agente `Main` e o agente `Motorista`
+## O agente `Main` e o agente `Driver`
 
 Todo modelo do AnyLogic começa com um agente chamado **Main**. Pense no `Main` como o "mundo": é ele que vai conter o **espaço** onde os veículos circulam, a **população** de motoristas e o **hub** de recarga. O `Main` é o palco; os motoristas são os atores.
 
@@ -28,7 +28,7 @@ Escolha **Population of agents** (queremos vários motoristas, não um só) e cl
 {% step %}
 ## Defina o tipo e o nome da população
 
-Em **Agent type name** digite `Motorista`; em **Agent population name** o AnyLogic sugere `motoristas`. Aceite. **Next**.
+Em **Agent type name** digite `Driver`; em **Agent population name** o AnyLogic sugere `drivers`. Aceite. **Next**.
 {% endstep %}
 
 {% step %}
@@ -50,10 +50,10 @@ Quando perguntar o **tamanho inicial da população**, deixe **0** por enquanto 
 {% endstep %}
 {% endstepper %}
 
-Pronto: você acabou de criar o tipo de agente `Motorista`, a população `motoristas` dentro do `Main`, e o AnyLogic abriu o diagrama do `Motorista` numa nova aba. Repare que agora você tem **duas abas de agente**: `Main` e `Motorista`.
+Pronto: você acabou de criar o tipo de agente `Driver`, a população `drivers` dentro do `Main`, e o AnyLogic abriu o diagrama do `Driver`numa nova aba. Repare que agora você tem **duas abas de agente**: `Main` e `Driver`.
 
 {% hint style="success" %}
 **Dica:** dê um clique duplo em qualquer agente na árvore do projeto (canto superior esquerdo) para abrir seu diagrama. Você vai alternar bastante entre `Main` e `Motorista` neste tutorial.
 {% endhint %}
 
-Nas próximas páginas vamos, nesta ordem: dar **parâmetros e variáveis** ao `Motorista`, desenhar o seu **statechart**, montar o **espaço 2D** e o **hub** no `Main`, e por fim ligar a **lógica de fila** dos carregadores.
+Nas próximas páginas vamos, nesta ordem: dar **parâmetros e variáveis** ao `Driver`, desenhar o seu **statechart**, montar o **espaço 2D** e o **hub** no `Main`, e por fim ligar a **lógica de fila** dos carregadores.
