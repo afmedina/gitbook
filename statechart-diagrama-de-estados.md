@@ -1,14 +1,14 @@
-# statechart
+# Statechart: diagrama de estados
 
-Chegamos ao coração do modelo. O **statechart** (diagrama de estados) descreve, para **um** motorista, os cinco momentos do seu ciclo e as regras que o fazem passar de um para o outro. Como são 25 motoristas rodando o mesmo statechart, cada um com seus próprios sorteios de tempo, o comportamento do hub — inclusive a fila — vai _emergir_ dessa multidão.
+Chegamos ao coração do modelo. O **statechart** (diagrama de estados) descreve, para **um** motorista, os cinco momentos do seu ciclo e as regras que o fazem passar de um para o outro. Como são 25 motoristas rodando o mesmo **statechart**, cada um com seus próprios sorteios de tempo, o comportamento do hub — inclusive a fila — vai _emergir_ dessa multidão.
 
-Abra a aba do agente **`Motorista`**.
+Abra a aba do agente **`Driver`**.
 
 {% stepper %}
 {% step %}
 ## Estados e ponto de entrada
 
-Da paleta **Statechart**, arraste para o diagrama do `Motorista`:
+Da paleta **Statechart**, arraste para o diagrama do `Driver`:
 
 * Um **Statechart Entry Point** (a bolinha com a seta).
 * Quatro **State** (os retângulos arredondados). Nomeie-os, de cima para baixo: `Rodando`, `IndoAoPosto`, `NaFila`, `Carregando`.
@@ -88,6 +88,6 @@ Se houver carregador livre naquele momento, `tentarAtender()` vai nos enviar `"v
 
 ## Como o modelo se comporta agora
 
-Pare um instante e leia o statechart como uma história: o carro roda por um tempo, fica sem bateria, vai ao hub, se anuncia. Se há vaga, carrega; senão, entra numa fila que o hub administra por ordem de chegada. Ao terminar, libera a vaga — que imediatamente pode ser ocupada por quem esperava — e volta a rodar.
+Pare um instante e leia o **statechart** como uma história: o carro roda por um tempo, fica sem bateria, vai ao hub, se anuncia. Se há vaga, carrega; senão, entra numa fila que o hub administra por ordem de chegada. Ao terminar, libera a vaga — que imediatamente pode ser ocupada por quem esperava — e volta a rodar.
 
 Falta só uma coisa para o modelo andar (literalmente): o **espaço** e o **movimento**. É a próxima página.
