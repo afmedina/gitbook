@@ -1,10 +1,10 @@
-# O nosso primeiro agente: motorista
+# O nosso primeiro agente: Driver
 
-Antes de desenhar o comportamento (o statechart), vamos dar ao `Motorista` os “números” que descrevem seu ciclo. Abra a aba do agente **`Motorista`**.
+Antes de desenhar o comportamento (o statechart), vamos dar ao `Driver` os “números” que descrevem seu ciclo. Abra a aba do agente `Driver`.
 
 ## Parâmetros do Motorista
 
-Da paleta **Agent**, arraste três **Parameter** para dentro do diagrama do `Motorista` e configure cada um:
+Da paleta **Agent**, arraste três **Parameter** para dentro do diagrama do `Driver` e configure cada um:
 
 | Nome              | Tipo   | Valor padrão                | Significado                                                   |
 | ----------------- | ------ | --------------------------- | ------------------------------------------------------------- |
@@ -18,13 +18,13 @@ Colocamos `triangular(min, moda, max)` **como valor padrão do parâmetro**. Ass
 
 ## Variáveis do Motorista
 
-Vamos precisar de uma variável para cronometrar quanto tempo o motorista esperou na fila. Arraste uma **Variable** da paleta **Agent** para dentro do `Motorista`:
+Vamos precisar de uma variável para cronometrar quanto tempo o motorista esperou na fila. Arraste uma **Variable** da paleta **Agent** para dentro do `Driver`:
 
 | Nome            | Tipo   | Valor inicial | Para quê                                                                    |
 | --------------- | ------ | ------------- | --------------------------------------------------------------------------- |
 | `tEntrouNaFila` | double | `0`           | Guarda o instante em que o motorista entrou na fila, para calcular a espera |
 
-Só isso por enquanto no `Motorista`. Toda a inteligência dele vai morar no **statechart**, que é a próxima página — e a mais importante do tutorial.
+Só isso por enquanto no `Driver`. Toda a inteligência dele vai morar no **statechart**, que é a próxima página — e a mais importante do tutorial.
 
 {% hint style="success" %}
 **Dica:** mantenha os nomes exatamente como estão aqui, inclusive maiúsculas e minúsculas. O AnyLogic gera código Java a partir desses nomes, e mais adiante vamos escrever expressões que os referenciam. `Autonomia` e `autonomia` são coisas diferentes para o Java.
