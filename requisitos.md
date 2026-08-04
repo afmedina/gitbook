@@ -33,7 +33,3 @@ Necessário para a parte da nuvem.
 <figure><img src=".gitbook/assets/love-heart-svgrepo-com.svg" alt="" width="188"><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
-
-{% hint style="info" %}
-**Tempo estimado:** cerca de **100 minutos** — o equivalente a uma aula de graduação. Os apêndices são opcionais e podem ser explorados depois, ao seu ritmo.
-{% endhint %}
