@@ -35,5 +35,5 @@ Necessário para a parte da nuvem.
 {% endstepper %}
 
 {% hint style="info" %}
-**Tempo estimado:** cerca de **100 minutos** — o equivalente a uma aula de graduação. Os apêndices são opcionais e podem ser explorados depois, no seu ritmo.
+**Tempo estimado:** cerca de **100 minutos** — o equivalente a uma aula de graduação. Os apêndices são opcionais e podem ser explorados depois, ao seu ritmo.
 {% endhint %}
